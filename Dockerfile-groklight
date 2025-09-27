@@ -1,0 +1,7 @@
+FROM verofess/grok2api:light
+
+WORKDIR /app
+
+EXPOSE 5200
+
+USER 10014 
