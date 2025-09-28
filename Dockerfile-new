@@ -1,0 +1,7 @@
+FROM calciumion/new-api:latest
+
+WORKDIR /data
+
+EXPOSE 3000
+
+USER 10014
