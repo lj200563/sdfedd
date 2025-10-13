@@ -2,7 +2,6 @@ FROM naiher/qbin:latest
 
 WORKDIR /app
 
-VOLUME ["/data"]
 
 EXPOSE 8000
 
