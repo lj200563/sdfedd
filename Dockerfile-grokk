@@ -1,0 +1,9 @@
+FROM ghcr.io/chenyme/grok2api:latest
+
+WORKDIR /app
+
+VOLUME ["/data"]
+
+EXPOSE 8000
+
+USER 10014 
